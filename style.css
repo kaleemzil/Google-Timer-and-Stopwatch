@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+#container{
+    margin: auto;
+    height: 380px;
+    width: 600px;
+    background-color: white;
+    position: relative;
+    top: 170px;
+}
+#container .button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#container .button .tab{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;    
+    padding: 20px 30px;
+}
+#container .button .borderB{
+   border: 2px solid black;
+}
+#container .main{
+    width: auto;
+    border: 1px solid black;
+    height: 250px;
+}
+#container .btn{
+    position: relative;
+    left: 60px;
+}
+#container .btn input{
+    margin: 14px 20px;
+    padding: 11px 20px;
+}
+
+.btn .start{
+    color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn .start:hover{
+    color: white;
+    background-color: black;
+}
+
+
+.btn .reset{
+    color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn .reset:hover{
+    color: white;
+    background-color: green;
+}
+.main .ti{
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
+.main .stopw{
+    display: none;
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
